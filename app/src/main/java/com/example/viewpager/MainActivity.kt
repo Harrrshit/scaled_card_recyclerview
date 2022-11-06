@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
             val adapter = RecyclerViewAdapter(this@MainActivity, imageList)
             activityMainRecyclerView.adapter = adapter
             val spacing = 8
-            //activityMainRecyclerView.addItemDecoration(LinearHorizontalSpacingDecoration(spacing))
+            activityMainRecyclerView.addItemDecoration(LinearHorizontalSpacingDecoration(spacing))
         }
         snapHelper.attachToRecyclerView(binding.activityMainRecyclerView)
     }
